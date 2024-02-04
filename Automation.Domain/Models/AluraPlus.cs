@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Automation.Domain.Models
 {
-    internal class AluraPlus
+    internal class AluraPlus : AluraContent
     {
+        public AluraPlus(string title, string description) : base(title, description)
+        {
+        }
     }
 }

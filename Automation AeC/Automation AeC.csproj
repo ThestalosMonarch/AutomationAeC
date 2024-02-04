@@ -5,6 +5,12 @@
     <RootNamespace>Automation_AeC</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Automation.Infraestructure\Automation.Infraestructure.csproj" />
+    <ProjectReference Include="..\Automation.Service\Automation.Service.csproj" />
+  </ItemGroup>
 
 </Project>

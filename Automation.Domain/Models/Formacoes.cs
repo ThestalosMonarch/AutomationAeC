@@ -8,6 +8,8 @@ namespace Automation.Domain.Models
 {
     internal class Formacoes : Cursos
     {
-       
+        public Formacoes(string title, string description, string professor, string cargaHoraria) : base(title, description, professor, cargaHoraria)
+        {
+        }
     }
 }
