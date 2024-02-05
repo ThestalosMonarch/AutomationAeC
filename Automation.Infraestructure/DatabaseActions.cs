@@ -5,10 +5,11 @@ namespace Automation.Infraestructure
 {
     public class DatabaseActions
     {
-        private readonly string ConnectionString = @"Data Source=.\Database\AutomationDatabase.db;Version=3;";
+        private readonly string ConnectionString = @"Data Source=.\Database\AutomationDatabase.db;";
 
         public DatabaseActions()
         {
+            
         }
         /// <summary>
         /// salvar os cursos no banco de dados

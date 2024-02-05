@@ -71,7 +71,7 @@ namespace Automation.Service
             buscar.Submit();
         }
         /// <summary>
-        /// Capturar informações no site Alura
+        /// Capturar informações no site Alura referente aos cursos. Este metodo pode ficar mais genérico caso seja preciso capturar outros tipos de conteúdo
         /// </summary>
         /// <param name="driver"></param>
         public static List<Cursos> GetContentResultInformation(IWebDriver driver)

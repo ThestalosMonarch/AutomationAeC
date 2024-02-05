@@ -20,7 +20,7 @@ namespace Automation.Service
             try
             {
 
-                IWebElement pElement = driver.FindElement(By.CssSelector("p.courseInfo-card-wrapper-infos[style='color: #ff8c2a;']"));
+                IWebElement pElement = driver.FindElement(By.XPath("/html/body/section[1]/div/div[2]/div[1]/div/div[1]/div/p[1]"));
                 return pElement.Text;
             }
             catch (NoSuchElementException ex)

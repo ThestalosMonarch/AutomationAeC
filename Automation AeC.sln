@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation AeC", "Automatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Domain", "Automation.Domain\Automation.Domain.csproj", "{8D93133B-178A-4058-B0A9-455FD1B887FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Infraestructure", "Automation.Infraestructure\Automation.Infraestructure.csproj", "{D31E6729-0A57-4F1C-8758-D1ED45D2FB87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Infraestructure", "Automation.Infraestructure\Automation.Infraestructure.csproj", "{D31E6729-0A57-4F1C-8758-D1ED45D2FB87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Service", "Automation.Service\Automation.Service.csproj", "{93E6BF8A-FB51-4E30-8002-0E2C386D28EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Service", "Automation.Service\Automation.Service.csproj", "{93E6BF8A-FB51-4E30-8002-0E2C386D28EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.ServiceTests", "Automation.ServiceTests\Automation.ServiceTests.csproj", "{138CA0AE-32DE-4FBE-AE4A-F224ABE6AA2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{93E6BF8A-FB51-4E30-8002-0E2C386D28EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E6BF8A-FB51-4E30-8002-0E2C386D28EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93E6BF8A-FB51-4E30-8002-0E2C386D28EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138CA0AE-32DE-4FBE-AE4A-F224ABE6AA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138CA0AE-32DE-4FBE-AE4A-F224ABE6AA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138CA0AE-32DE-4FBE-AE4A-F224ABE6AA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138CA0AE-32DE-4FBE-AE4A-F224ABE6AA2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
